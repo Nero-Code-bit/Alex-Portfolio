@@ -78,84 +78,84 @@ ul {
 
 @font-face {
     font-family: 'MyCustomFont';
-    src: url('/fonts/Race\ Sport.ttf') format('truetype');
+    src: url('fonts/Race\ Sport.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont2';
-    src: url('/fonts/RushDriver-Italic.otf') format('truetype');
+    src: url('fonts/RushDriver-Italic.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont3';
-    src: url('/fonts/SpeedBackDemoRegular.ttf') format('truetype');
+    src: url('fonts/SpeedBackDemoRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont4.1';
-    src: url('/fonts/Siegra.ttf') format('truetype');
+    src: url('fonts/Siegra.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont4.2';
-    src: url('/fonts/Siegra.otf') format('truetype');
+    src: url('fonts/Siegra.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont5.1';
-    src: url('/fonts/OvercameDemoRegular.ttf') format('truetype');
+    src: url('fonts/OvercameDemoRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont5.2';
-    src: url('/fonts/OvercameDemoOutline.ttf') format('truetype');
+    src: url('fonts/OvercameDemoOutline.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont5.3';
-    src: url('/fonts/OvercameDemoItalic.ttf') format('truetype');
+    src: url('fonts/OvercameDemoItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont5.4';
-    src: url('/fonts/OvercameDemoBoldItalic.ttf') format('truetype');
+    src: url('fonts/OvercameDemoBoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont5.5';
-    src: url('/fonts/OvercameDemoBold.ttf') format('truetype');
+    src: url('fonts/OvercameDemoBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont6.1';
-    src: url('/fonts/Alphacorsa\ Personal\ Use\ Italic.ttf') format('truetype');
+    src: url('fonts/Alphacorsa\ Personal\ Use\ Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont6.2';
-    src: url('/fonts/Alphacorsa\ Personal\ Use.ttf') format('truetype');
+    src: url('fonts/Alphacorsa\ Personal\ Use.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
