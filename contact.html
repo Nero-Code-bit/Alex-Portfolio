@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+
+<body id="contact-page">
+    <!-- Welcome Overlay -->
+    <div class="overlay">
+        <h1 id="welcome-text"></h1>
+    </div>
+
+    <!-- MP4 Background -->
+    <div class="bg-container">
+        <video class="bg-videos" autoplay muted loop playsinline style="opacity: 0; transition: opacity 0.5s ease;"></video>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="content-wrapper">
+            <header class="header-box">
+                <div class="logo" style="font-size: 2.2rem; display: flex; align-items: center; gap: 0.5rem;">
+                    PORTFOLIO
+                    <button id="change-bg-btn" class="icon-btn" title="Change Background" style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center;">
+                        <!-- SVG Steering Wheel Icon -->
+                        <svg class="steering-wheel-icon" width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="vertical-align: middle;">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M24 9v10M24 29v10M39 24H29M19 24H9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M13 35c3-6 19-6 22 0" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M13 13c6 3 6 19 0 22" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M35 13c-6 3-6 19 0 22" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <nav id="nav-menu" class="nav-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span class="nav-icon"><i class="fa-solid fa-user"></i></span>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="projects.html">
+                                <span class="nav-icon"><i class="fa-solid fa-code"></i></span>
+                                Projects / Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <span class="nav-icon"><i class="fa-solid fa-envelope"></i></span>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="contact-section">
+                <div class="contact-wrapper">
+                    <div class="contact-container">
+                        <h2>Contact Me</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="you@example.com" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" placeholder="Your Message..." required></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        <div class="contact-icons">
+                            <a href="https://www.facebook.com/Alexandrei44/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/jaredalexandrei/"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://github.com/Nero-Code-bit"><i class="fab fa-github"></i></a>
+                            <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <br>
+                        <button type="resume">MY RESUME</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="hero-profile">
+            <img id="spinning-profile" src="resources/pfp/pfp2.jpg" alt="Jared Alexandrei Profile Photo" style="transform: rotate(0deg); transition: transform 2s;">
+        </div>
+        <br>
+        <br>
+        <br>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Alexandrei44/" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a hr1ef="http://www.linkedin.com/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/jaredalexandrei/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Alex Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
