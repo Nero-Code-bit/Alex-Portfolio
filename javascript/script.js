@@ -129,11 +129,11 @@ document.addEventListener('click', (e) => {
 // Spinning Profile Image with Music on Click or Double Click
 const profileImg = document.getElementById('spinning-profile');
 const musicTracks = [
-    "/resources/audio/Alfonso Peduto - Binary Data II Live [Disklavier  realtime delays].mp3",
-    "/resources/audio/Alfonso Peduto - Binary Data IV Live [Disklavier  realtime delays].mp3.mp3",
-    "/resources/audio/Alfonso Peduto - Binary Data IX.mp3",
-    "/resources/audio/Alfonso Peduto - Binary Data V [OFFICIAL AUDIO].mp3",
-    '/resources/audio/Alfonso Peduto - Binary Data XVIII.mp3',
+    "resources/audio/Alfonso Peduto - Binary Data II Live [Disklavier  realtime delays].mp3",
+    "resources/audio/Alfonso Peduto - Binary Data IV Live [Disklavier  realtime delays].mp3.mp3",
+    "resources/audio/Alfonso Peduto - Binary Data IX.mp3",
+    "resources/audio/Alfonso Peduto - Binary Data V [OFFICIAL AUDIO].mp3",
+    'resources/audio/Alfonso Peduto - Binary Data XVIII.mp3',
 ];
 let spinning = false;
 let rotation = 0;
